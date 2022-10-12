@@ -6,7 +6,7 @@ html {
   font-size: 48px;
   text-align: center;
   margin-top: 50px;
-  animation: 1s infinite rain;
+  animation: 0.5s linear infinite rain;
 }
 
 @keyframes rain {
