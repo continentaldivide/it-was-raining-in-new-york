@@ -1,0 +1,16 @@
+html {
+  background-color: slategray;
+}
+
+.droplet {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+  animation: 1s infinite rain;
+}
+
+@keyframes rain {
+  to {
+    margin-top: 900px;
+  }
+}
