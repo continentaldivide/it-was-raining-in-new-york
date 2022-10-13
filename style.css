@@ -1,16 +1,21 @@
 html {
   background-color: slategray;
+  overflow: hidden;
 }
 
 .droplet {
+  border-right-width: 500px;
   font-size: 48px;
   text-align: center;
   margin-top: 50px;
-  animation: 0.5s linear infinite rain;
+  animation: 1s linear infinite rain;
 }
 
 @keyframes rain {
+  from {
+    transform: rotate(90deg);
+  }
   to {
-    margin-top: 900px;
+    transform: rotate(90deg) translateX(110vh);
   }
 }
